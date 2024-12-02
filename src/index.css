@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.text-black {
+  padding: 5px;
+  font-size: 29px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.text-secondary {
+  cursor: pointer;
+  transition: color 50ms linear;
+}
+
+.text-secondary:hover {
+  color: white;
+}
+.newsinfo
+{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap:10px;
+}
+
+.card
+{
+height:auto;
+width:350px;
+}
+
+.card-title
+{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.card-img-top
+{
+  height:230px;
+}
